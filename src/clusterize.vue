@@ -54,7 +54,7 @@ module.exports =
       type: Number
     "template":
       type: String
-    "style":
+    "styles":
       type: Object
     "rowWatchers":
       type: Object
@@ -92,8 +92,8 @@ module.exports =
         left: if @autoHeight then 0 else null
         right: if @autoHeight then 0 else null
         overflow: "auto"
-      if @style?
-        for key,val of @style
+      if @styles?
+        for key,val of @styles
           style[key] = val
       return style
 

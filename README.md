@@ -1,8 +1,10 @@
-# vue-clusterize
+# vue-clusterize-fixed
+
+This repo is a fork of [vue-clusterize](https://github.com/vue-comps/vue-clusterize) by [Paul Pflugradt](https://github.com/paulpflug)
 
 An implementation of [Clusterize.js](https://nexts.github.io/Clusterize.js/) in [vue](http://vuejs.org/).
 
-Works similar to `v-for` but only takes enough data to fill the viewport  3 times.  
+Works similar to `v-for` but only takes enough data to fill the viewport  3 times.
 This data is then splitted into three clusters which will move and get filled with the right data on scrolling.
 
 ### [Demo](https://vue-comps.github.io/vue-clusterize/)
@@ -94,7 +96,7 @@ Or use autoheight:
     <div style="position:relative">
       <clusterize :data="rowsData" auto-height>
 ```
-In this case clusterize will always fill the nearest parent element with either `position:relative;` or `position:absolute;`.  
+In this case clusterize will always fill the nearest parent element with either `position:relative;` or `position:absolute;`.
 Keep in mind, that `padding` of the parent will be ignored. If you need a padding, use a wrapper `<div>`.
 
 ## Dynamic data

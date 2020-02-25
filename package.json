@@ -1,7 +1,7 @@
 {
-  "name": "vue-clusterize",
+  "name": "vue-clusterize-fixed",
   "description": "clusterize - done in vue",
-  "version": "0.5.1",
+  "version": "0.0.1",
   "homepage": "https://github.com/paulpflug",
   "author": {
     "name": "Paul Pflugradt",
