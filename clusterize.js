@@ -42,7 +42,7 @@ module.exports = {
     "template": {
       type: String
     },
-    "style": {
+    "styles": {
       type: Object
     },
     "rowWatchers": {
@@ -107,8 +107,8 @@ module.exports = {
         right: this.autoHeight ? 0 : null,
         overflow: "auto"
       };
-      if (this.style != null) {
-        ref = this.style;
+      if (this.styles != null) {
+        ref = this.styles;
         for (key in ref) {
           val = ref[key];
           style[key] = val;
